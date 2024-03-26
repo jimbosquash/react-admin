@@ -28,6 +28,11 @@ const Team = () => {
       flex: 1,
       cellClassName: "age-column--cell",
     },
+    { field: "cost", headerName: "Cost", flex: 1,
+  renderCell: (params) => ( <Typography color={colors.greenAccent[500]}>
+    ${params.row.cost}
+  </Typography>)},
+
     { field: "phone", headerName: "Phone Number", flex: 1 },
     { field: "email", headerName: "Email", flex: 1 },
     {
