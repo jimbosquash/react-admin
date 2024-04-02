@@ -5,19 +5,19 @@ import { mockDataInvoices } from "../../data/mockData";
 import Header from "../../components/Header";
 import {useState } from "react";
 
-interface Invoice {
-  id: number;
-  name: string;
-  phone: string;
-  email: string;
-  cost: number;
-  date: string;
-}
+// interface Invoice {
+//   id: number;
+//   name: string;
+//   phone: string;
+//   email: string;
+//   cost: number;
+//   date: string;
+// }
 
-const Invoices: React.FC =  () => {
+const Invoices =  () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const [selection,setSelection] = useState<Invoice[]>([]);
+  const [selection,setSelection] = useState([]);
   const columns = [
     { field: "id", headerName: "ID" },
     {

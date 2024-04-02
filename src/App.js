@@ -9,6 +9,7 @@ import Team from "./scenes/team";
 import Contacts from "./scenes/contacts";
 import Invoices from "./scenes/invoices";
 import Form from "./scenes/form";
+import Viewer from "./viewer";
 
 // import Bar from "./scenes/bar";
 // import Line from "./scenes/line";
@@ -30,7 +31,7 @@ function App() {
           <main className="content">
             <TopBar/>
             <Routes>
-              <Route path='/' element={<Dashboard />} />
+              <Route path='/' element={<Viewer />} />
               <Route path='/team' element={<Team />} />
               <Route path='/contacts' element={<Contacts />} />
               <Route path='/invoices' element={<Invoices />} />

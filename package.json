@@ -14,6 +14,7 @@
     "@mui/icons-material": "^5.15.14",
     "@mui/material": "^5.15.14",
     "@mui/x-data-grid": "^6.19.6",
+    "@react-three/fiber": "^8.16.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -21,13 +22,14 @@
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.71",
     "@types/react-dom": "^18.2.22",
+    "@types/three": "^0.163.0",
     "formik": "^2.4.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pro-sidebar": "^0.7.1",
     "react-router-dom": "^6.22.3",
     "react-scripts": "5.0.1",
-    "typescript": "^5.4.3",
+    "three": "^0.163.0",
     "web-ifc": "^0.0.51",
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
@@ -55,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
   }
 }
